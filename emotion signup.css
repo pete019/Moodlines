@@ -1,0 +1,201 @@
+/* i will just add style to make it to look like the emotion login page but this one will
+    have much more information to offer to the user who are signing up for the 
+    first time who want to use my site.
+*/
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6A85B6, #BAC8E0);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-box{
+    border: none;
+    border-radius: 22px;
+ 
+    text-align: center;
+    background: white;
+    width: 550px;
+    height: 580px;
+
+    padding-top: 14px;
+    padding-bottom: 34px;
+    box-shadow: 0 10px 30px rgba(11, 11, 11, 0.15);
+}
+.icon{
+    border: none;
+    margin-top: 25px;
+    max-width: 100px;
+    max-height: 500px;
+    margin-left: 220px;
+
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+    font-size: 40px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+
+    border-radius: 55px;
+    background: linear-gradient(135deg, #6A85B6, #BAC8E0);
+    opacity: 0.7;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+.icon i{
+    animation: spin 3s linear 1s 1;
+}
+.icon:hover i{
+    animation: spin 3s ease-out 1s infinite;
+}
+@keyframes spin{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+
+/* hr{ */
+    /* width: 450px; */
+    /* color: black; */
+    /* text-decoration: solid; */
+    /* font-size: 40px; */
+
+    /* animation-name: stretch; */
+    /* animation-timing-function: ease-out; */
+    /* animation-duration: 2s; */
+    /* animation-iteration-count: 1; */
+    /* animation-fill-mode: forwards; */
+
+    /* transition: transform 1.5s eade-out; */
+/* } */
+/* hr:hover{ */
+    /* cursor: pointer; */
+    
+    /* animation-name: stretch; */
+    /* animation-timing-function: ease-out; */
+    /* animation-duration: 1.5s; */
+    /* animation-iteration-count: infinite; */
+    /* animation-fill-mode: forwards; */
+
+    /* transition: transform 1.5s eade-out; */
+/* } */
+/* @keyframes stretch{ */
+    /* from{width: 0px;} */
+    /* to{width: 450px;} */
+/* } */
+
+.names{
+    text-align: center;
+    /* max-width: 550px; */
+    margin-top: 15px;
+
+    font-size: 15px;
+    /* border: none; */
+    /* background: linear-gradient(135deg, #6A85B6, #BAC8E0) bottom / 100% 3px no-repeat; */
+    /* border-radius: 20px; */
+}
+.firstname{
+    text-align: center;
+    border: none;
+    background: linear-gradient(135deg, #6A85B6, #BAC8E0) bottom / 100% 3px no-repeat;
+    border-radius: 20px;
+    outline: none;
+
+    font-size: 15px;
+    
+    padding-bottom: 3px;
+}
+.middlename{
+    text-align: center;
+    border: none;
+    background: linear-gradient(135deg, #6A85B6, #BAC8E0) bottom / 100% 3px no-repeat;
+    border-radius: 20px;
+    outline: none;
+
+    font-size: 15px;
+
+    padding-bottom: 3px;
+}
+.lastname{
+    text-align: center;
+    border: none;
+    background: linear-gradient(135deg, #6A85B6, #BAC8E0) bottom / 100% 3px no-repeat;
+    border-radius: 20px;
+    outline: none;
+
+    font-size: 15px;
+
+    padding-bottom: 3px;
+}
+
+.tel{
+    text-align: center;
+    border: none;
+    background: linear-gradient(135deg, #6A85B6, #BAC8E0) bottom / 100% 3px no-repeat;
+    border-radius: 20px;
+    outline: none;
+
+    font-size: 15px;
+
+    padding-bottom: 3px;
+}
+
+.email{
+    text-align: center;
+    border: none;
+    background: linear-gradient(135deg, #6A85B6, #BAC8E0) bottom / 100% 3px no-repeat;
+    border-radius: 20px;
+    outline: none;
+
+    font-size: 15px;
+
+    padding-bottom: 3px;
+}
+
+.password{
+    text-align: center;
+    border: none;
+    background: linear-gradient(135deg, #6A85B6, #BAC8E0) bottom / 100% 3px no-repeat;
+    border-radius: 20px;
+    outline: none;
+
+    font-size: 15px;
+
+    padding-bottom: 3px;
+}
+
+.password2{
+    text-align: center;
+    border: none;
+    background: linear-gradient(135deg, #6A85B6, #BAC8E0) bottom / 100% 3px no-repeat;
+    border-radius: 20px;
+    outline: none;
+
+    font-size: 15px;
+
+    padding-bottom: 3px;
+}
+
+.button{
+    padding: 10px 18px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #6A85B6, #BAC8E0);
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    outline: none;
+}
+.button:hover{
+    transform: scale(1.08)
+}
+.button:active{
+    transform: scale(0.97)
+}
