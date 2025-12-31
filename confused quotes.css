@@ -1,0 +1,123 @@
+body{
+    min-height: 100vh;
+    background: linear-gradient(135deg, #E0E0E0, #757575); 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.quotebox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    border: 2px solid white;
+    border-radius: 32px;
+
+    background: white;
+    box-shadow: 10px 0 30px white;
+
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: cebody{
+    min-height: 100vh;
+    background:   linear-gradient(135deg, #6A85B6, #BAC8E0); 
+}
+.quotebox{
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 32px;
+
+    background: white;
+    box-shadow: 10px 0 30px white;
+
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+
+    max-width: 750px;
+    max-height: 700px;
+    margin-top: 40px;
+    
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    font-size: 35px;
+    font-family: 'Playfair Display', serif !important;
+
+    animation-name: Fadein;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in;
+    /* animation-iteration-count: ; */
+    animation-fill-mode: forwards;
+    transition: transform 1.2s;
+    
+}
+.quotebox:hover{
+    transform: scale(1.08);
+}
+@keyframes Fadein{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+.quoteicon{
+    margin-bottom: 15px;
+    font-size: 50px;
+    
+    color: #757575;
+    opacity: 0.5;
+}
+.quoteicon2{
+    margin-top: 15px;
+    font-size: 50px;
+    
+    transform: rotate(180deg);
+
+    color: #757575;
+    opacity: 0.5;
+}
+
+
+/* .qoutehappy{ */
+        
+/* } */
+
+.author{
+    margin-top: 20px;
+    font-size: 25px;
+
+    font-family: Arial, sans-serif !important;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+    margin-top: 22px;
+    font-size: 25px;
+}
+/* @keyframes textscale{ */
+    /* to{font-size: 1.08;} */
+/* } */
+a:hover{
+    text-decoration: underline;
+    /* transform: scale(1.08); */
+    /* transition: tranform 1s; */
+
+    /* animation-name: textscale; */
+    /* animation-timing-function: ease-in; */
+    /* animation-duration: 1s; */
+    /* animation-fill-mode: forwards; */
+    
+}
+a:active{
+    /* transform: scale(0.95); */
+    text-decoration: underline;
+}
+a:visited:hover{
+    text-decoration: underline;
+}
